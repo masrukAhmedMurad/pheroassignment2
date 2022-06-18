@@ -305,6 +305,26 @@ color: #787885;
 
 
 
+section.popular-collection>p.btn a {
+    text-decoration: none;
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 24px;
+/* identical to box height */
+
+margin-top: 50px;
+color: rgba(224, 44, 109, 0.87);
+    float: right;
+}
+
+.feature{
+    clear: both;
+}
+
+
+
 
 
 @media only screen and (max-width: 480px) {
@@ -435,6 +455,21 @@ color: #3A3A3A;
     grid-template-columns: repeat(1,1fr);
     
 }
+
+
+
+
+section.popular-collection>p.btn a {
+  margin-top: 32px;
+ 
+}
+
+
+
+
+
+
+
 
 
     
