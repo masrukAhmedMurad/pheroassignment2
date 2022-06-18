@@ -362,7 +362,7 @@ font-size: 38px;
 line-height: 60px;
 /* identical to box height, or 158% */
 margin-bottom: 0px;
-
+text-align: center;
 color: #0A0826;
 }
 
@@ -568,45 +568,48 @@ section.popular-collection>p.btn a {
 
 .feature .content{
     display: flex;
-    width: 100%;
-    align-items: center;
-    
     flex-direction: column;
-    margin: 15px;
 }
-
-.feature .content .texts{
-    order: 1;
-  
-}
-
 
 .feature .content .image{
     order: 2;
 }
 
 .feature .content .image img{
-    width: 299px;
-height: 188px;
+    Width:299px;
+    Height:188px;
+    margin-top: 14px;
+    margin-bottom: 50px;
 }
-
-
 
 .feature .content .texts{
-    margin: 0px;
+    margin:0px;
+    order: 1;
 }
 
+.feature .content{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.feature .content .texts p.text{
+    width: 100%;
+}
 
 
 
 .feature .content .texts p.text{
+    text-align: center;
+}
 
-    width: 501px;
-    width: 100%;
-    
-    }
-    
 
+.feature .content .texts{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 
 
 
