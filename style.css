@@ -1,5 +1,11 @@
 
 
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
 header{
 
     margin-left: 120px;
@@ -422,6 +428,84 @@ color: #FFFFFF;
 
 
 
+footer{
+    display: flex;
+    flex-direction: column;
+   align-items: center;
+   background-color: #0A0826;
+    
+}
+
+footer .content{
+
+    width: 262px;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   margin: 0px;
+
+}
+
+
+footer .content h3{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 36px;
+/* identical to box height */
+margin-top: 50px;
+margin-bottom: 0px;
+text-align: center;
+color: #FFFFFF;
+}
+
+
+
+
+footer .content p{
+    font-family: 'Manrope';
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 24px;
+/* identical to box height, or 171% */
+margin-top: 3px;
+margin-bottom: 17px;
+text-align: center;
+/* Text / Gray 300 */
+
+color: #D9DBE1;
+
+}
+
+
+
+
+footer .content .icons{
+    margin-bottom: 50px;
+}
+
+
+.fa-brands{
+    background-color: #FFFFFF;
+    
+    border-radius: 50%;
+    margin: 8px;
+    font-size: 20px;
+    color: white;
+    padding: 5px;
+    background-color: #3A3A3A;
+}
+
+
+
+
+
+
+
+
+
 
 
 
@@ -437,13 +521,10 @@ color: #FFFFFF;
     }
 
     nav .logo h3{
-
-   
     font-size: 16px;
     line-height: 24px;
     text-align: center;
-    
- 
+
     }
 
     header{
@@ -613,7 +694,13 @@ section.popular-collection>p.btn a {
 
 
 
+footer .content{
 
+    width: 224px;
+ 
+ 
+
+}
 
 
 
